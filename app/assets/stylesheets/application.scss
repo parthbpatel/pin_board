@@ -20,9 +20,11 @@
  body {
   background: #E9E9E9;
  }
+
  h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
  }
+
  nav {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
   .navbar-brand {
@@ -35,6 +37,7 @@
    }
   }
  }
+
  #pins {
    margin: 0 auto;
    width: 100%;
@@ -64,6 +67,7 @@
     }
   }
  }
+
  #edit_page {
   .current_image {
    img {
@@ -72,6 +76,7 @@
    }
   }
  }
+
  #pin_show {
   .panel-heading {
    padding: 0;
