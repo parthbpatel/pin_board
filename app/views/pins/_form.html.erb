@@ -9,6 +9,9 @@
     <%= form.label :description %>
     <%= form.text_area :description %>
   </div>
+  <div class="">
+    <%= form.file_field :image, input_html: { class: 'form-control' } %>
+  </div>
 
   <div class="actions">
     <%= form.submit %>
